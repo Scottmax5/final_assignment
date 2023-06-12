@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Visual Studio Assignment</title>
+    <script src="js/assignment.js"></script>
+    <link rel="stylesheet" href="css/assignment.css">
+
+</head>
+
+<body>
+    <div class="headertext">
+        <h1>Visual Studio Assignment</h1>
+    </div>
+
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/x-xTttimcNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <p><button onclick="myMove()">Click Me</button></p>
+
+        <div id="container">
+            <div id="animate"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
